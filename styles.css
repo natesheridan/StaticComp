@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+            /* GLOBALS */
+        /* COLORS */
+
+        /* ELEMENTS */
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+
+
+            /* CONTAINERS */
+        /* NAVBAR */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2b2b;
+
+}
+
+    /* NAVBAR LEFT SIDE */
+.nav-left{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-top: 90px;
+}
+.nav-left button {
+    height: 40px;
+    color: rgb(165, 165, 165);
+    font-size: 16px;
+}
+.nav-left i {
+    color: #26B6FD;
+}
+.nav-active i, .nav-active button {
+    color:rgb(255, 255, 255);
+}
+
+
+
+    /* NAVBAR RIGHT SIDE */
+.nav-right{
+    width: 20%;
+    color: #26B6FD;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid green;
+}
+/* user menu */
+.user-menu{
+    display: flex;
+    color:#26B6FD;
+    border: 1px solid red;
+    justify-content: center;
+
+}
+.user-menu button {
+    color: #26B6FD;
+}
+
+
+/* logo */
+.logo { 
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+
+
+
+/* cards 400pxh * 280pxw  */
+
+            /* CARDS */
+.content{
+    margin: 10px;
+}
+.content h2{
+    font-size: 40px;
+    color:#494949;
+}
+        /* CONTAINER OF CARDS */
+.card-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+/* WHOLE CARD CONTAINER */
+.card {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 280px;
+    filter: drop-shadow(1px 1px 0 rgb(5, 5, 5));
+    background-color: white;
+}
+        /* FIXED ELEMENTS */
+/* CARD IMAGE */
+.card img {
+    display: relative;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.card .share {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.share i{
+    position: absolute;
+    top: 025%;
+    right: 025%;
+    font-size: 28px;
+    color: #3b3b3b;
+    text-shadow: #494949 1px 1px 0;
+    
+}
+.card .views {
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white
+}
+.views .label{
+    font-size: 12px;
+    color: white;
+}
+.views .counter{
+    font-size: 15px;
+    margin-top: -5px;
+}
+/* CARD TEXT CONTENT */
+.card-content{
+    height: 260px;
+    width: 240px;
+    overflow: hidden;
+    margin: 0 auto;
+    word-wrap: normal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card-content .title{
+    color: #5c5c5c;
+}
+.title .date{
+    color: #979797;
+    margin-top: -15px;
+    font-size: 12px;
+}
+.card-content .link{
+    inline-size: 240px;
+    background-color: #efefef;
+    color: #2b2b2b;
+    font-size: 12px;
+    overflow-wrap: break-word;
+    
+}
+.card-content .playlist{
+    
+}
+.card-content .attachments{
+
+}
