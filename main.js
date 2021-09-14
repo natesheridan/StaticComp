@@ -18,7 +18,7 @@ function pushArticle(article) {
                 <section class="card-content">
                     <div class="title">
                         <p>${article.name}</p>
-                        <p class="date">${article.date}</p>
+                        <p class="date">${article.time}</p>
                     </div>
                     <div class="link">
                         <p>${article.link}</p>
